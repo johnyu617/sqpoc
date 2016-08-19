@@ -8,5 +8,7 @@ public class SonarTest {
     public void testName(){
         Sonar sonar = new Sonar();
         sonar.setName("global");
+        sonar.setVersion(1);
+        sonar.setCoverage("coverage");
     }
 }

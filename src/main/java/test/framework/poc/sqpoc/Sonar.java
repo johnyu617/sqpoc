@@ -16,5 +16,10 @@ public class Sonar {
     public void setVersion(int version) {
         this.version = version;
     }
-
+    public String getCoverage() {
+        return coverage;
+    }
+    public void setCoverage(String coverage) {
+        this.coverage = coverage;
+    }
 }
