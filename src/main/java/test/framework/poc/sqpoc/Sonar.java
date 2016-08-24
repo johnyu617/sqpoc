@@ -4,6 +4,23 @@ public class Sonar {
     private String name;
     private int version;
     private String coverage;
+ 
+    public Sonar(){
+    	reset();
+    }
+    
+    public Sonar(String name,String coverage, int version){
+        this.name=name;
+        this.coverage=coverage;
+        this.version = version;
+    }
+ 
+    public void reset(){
+        this.name="";
+        this.coverage="";
+        this.version = 0;
+    }
+    
     public String getName() {
         return name;
     }
