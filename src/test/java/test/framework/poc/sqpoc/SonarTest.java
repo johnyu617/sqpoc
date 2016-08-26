@@ -11,5 +11,12 @@ public class SonarTest {
         sonar.setName("global");
         sonar.setVersion(1);
         sonar.setCoverage("coverage");
+        
+        Human man = new Human("my home", "619");
+        String address=man.getAddress();
+        String name=man.getName();
+        man.setName(name);
+        man.setAddress(address);
+        man.getName2();
     }
 }
