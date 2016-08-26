@@ -25,7 +25,9 @@ public class Human {
     }
     
     public String getName2(){
-        return name+this.address1;
+        String n= name+this.address1;
+        //return it for testing
+        return n;
     }  
     
     //add comments
