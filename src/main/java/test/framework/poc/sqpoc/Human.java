@@ -33,7 +33,8 @@ public class Human {
     //add comments
     public void setName(String name)
     {
-    	this.name=name;
+    	this.name=name+"update";
+    	
     }
     
     //add comments
