@@ -34,6 +34,9 @@ public class Human {
     public void setName(String name)
     {
     	this.name=name+"update";
+    	// add a comment
+    	
+    	// add two comments
     	
     }
     
