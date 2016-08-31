@@ -14,9 +14,10 @@ public class SonarTest {
         
         Human man = new Human("my home", "619");
         String address=man.getAddress();
-        String name=man.getName();
-        man.setName(name);
+        String name=man.getFName();
+        man.setFName(name);
         man.setAddress(address);
-        man.getName2();
+        name=man.getLName();
+        man.setLName(name);
     }
 }

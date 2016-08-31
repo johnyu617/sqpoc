@@ -1,7 +1,7 @@
 package test.framework.poc.sqpoc;
 
 public class Human {
-    private String name;
+    private String name, fname, lname;
     private String address1;
     
     public Human(String name,String address1){
@@ -15,29 +15,32 @@ public class Human {
     }
     
     public void reset(){
-        this.name="";
+        this.fname="";
+        this.lname="";
         this.address1="";
     }
 
     //add comments
-    public String getName(){
-        return name;
+    public String getFName(){
+        return fname;
     }
     
-    public String getName2(){
-        String n= name+this.address1;
+    public String getLName(){
+        //String n= name+this.address1;
         //return it for testing
-        return n;
+        return lname;
     }  
     
     //add comments
-    public void setName(String name)
+    public void setFName(String name)
     {
-    	this.name=name+"update";
-    	// add a comment
-    	
-    	// add two comments
-    	
+    	this.fname=name;
+    }
+    
+    //add comments
+    public void setLName(String name)
+    {
+    	this.lname=name;
     }
     
     //add comments
