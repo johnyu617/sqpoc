@@ -45,7 +45,7 @@ public class Sonar {
         return this.percent;
     }
     
-    public void setPercent(float coverage) {
-        this.percent = coverage;
+    public void setPercent(float percent) {
+        this.percent = percent;
     }
 }
