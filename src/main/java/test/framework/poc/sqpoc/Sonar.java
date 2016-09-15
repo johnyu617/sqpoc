@@ -4,6 +4,7 @@ public class Sonar {
     private String name;
     private int version;
     private String coverage;
+    private float percent;
  
     public Sonar(){
     	reset();
@@ -34,9 +35,17 @@ public class Sonar {
         this.version = version;
     }
     public String getCoverage() {
-        return coverage;
+        return this.coverage;
     }
     public void setCoverage(String coverage) {
         this.coverage = coverage;
+    }
+    
+    public float getPercent() {
+        return this.percent;
+    }
+    
+    public void setPercent(float coverage) {
+        this.percent = coverage;
     }
 }
