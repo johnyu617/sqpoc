@@ -3,6 +3,7 @@ package test.framework.poc.sqpoc;
 public class Human {
     private String name, fname, lname;
     private String address1;
+    private int id;
     
     public Human(String name,String address1){
         this.name=name;
@@ -52,5 +53,13 @@ public class Human {
     //add comments
     public String getAddress(){
         return address1;
+    }
+    
+    public int getId() {
+        return id;
+    }
+    
+    public void setId(int id) {
+        this.id=id;
     }
 }
